@@ -4,7 +4,7 @@ from telebot.types import Message
 import requests
 import dbfunctions
 
-bot = telebot.TeleBot(INSERT_YOUR_TOKEN)
+bot = telebot.TeleBot('6269237020:AAFZ5bJiG1TWtI71O2StAisZ7lUcUz-hUV4')
 
 @bot.message_handler(commands=["start"]) #initializes the start
 def handle_start(message):
